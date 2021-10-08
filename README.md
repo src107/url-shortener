@@ -8,6 +8,8 @@ Created a React App for URL shortener
 2. Short Link (Should be a valid URL)
 3. A button to convert it to a shorter link.
 
+App is compatible with desktop as well as mobile view.
+
 Algorithim Used:
 Hashing for storing the short link in the database. Used the short link as the unique identifier for each record in the database.
 Because of that we can throw an error message to provide some other short link. If the use is not providing an short link then
