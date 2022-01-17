@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { Button, TextField, FormControl, Alert, AlertTitle } from '@mui/material';
 import { isValidURL, getShortenURL, shortUrlExist, longUrlExist, getDocId } from './util';
-import db from './firebase';
+import db from './firebase'
 import './App.css';
 
 function App() {
